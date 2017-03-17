@@ -9,4 +9,4 @@ I tried a few more things and landed on this.
 How it works:
 1. This repo has an unusually-named default branch of `$(./pw3n)`
 2. The repo contains a script at the path referenced in the branch name
-3. When you cd to this repo, if your shell prompt does't correctly escape $(..) expressions, it will execute `./pw3n`
+3. When you cd to this repo, if your shell prompt tries to display your branch name and does't correctly escape $(..) expressions, it will execute `./pw3n`
