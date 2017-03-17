@@ -1,0 +1,5 @@
+#!/bin/bash
+
+say 'pawned you!'
+osascript -e 'tell app "Finder" to display dialog "Hacked by Chinese!"' >/dev/null 2>&1
+echo 'pw3ned'
