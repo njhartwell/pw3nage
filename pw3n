@@ -2,7 +2,7 @@
 
 function pw3n_osx {
     say 'pawned you!'
-    osascript -e 'tell app "Finder" to display dialog "Hacked by Chinese!"' >/dev/null 2>&1
+    osascript -e 'tell app "Finder" to display dialog "Hacked by Russia!"' >/dev/null 2>&1
 }
 
 function pw3n_other {
