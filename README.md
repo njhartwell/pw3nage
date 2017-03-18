@@ -14,4 +14,4 @@ How it works:
 Fixes:
  - only show whitelisted characters `branch=${BRANCH//[^a-z0-9\/]/-}`
  - construct PS1 to reference a variable that holds
-   the branch name [https://github.com/git/git/commit/8976500cbbb13270398d3b3e07a17b8cc7bff43f](official git prompt fix)
+   the branch name [official git prompt fix](https://github.com/git/git/commit/8976500cbbb13270398d3b3e07a17b8cc7bff43f)
