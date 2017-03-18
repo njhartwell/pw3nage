@@ -10,3 +10,8 @@ How it works:
 1. This repo has an unusually-named default branch of `$(./pw3n)`
 2. The repo contains a script at the path referenced in the branch name
 3. When you cd to this repo, if your shell prompt tries to display your branch name and does't correctly escape $(..) expressions, it will execute `./pw3n`
+
+Fixes:
+ - only show whitelisted characters `branch=${BRANCH//[^a-z0-9\/]/-}`
+ - construct PS1 to reference a variable that holds
+   the branch name [https://github.com/git/git/commit/8976500cbbb13270398d3b3e07a17b8cc7bff43f](official git prompt fix)
